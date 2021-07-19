@@ -68,7 +68,6 @@ public class verifyConfirmationMessage {
             System.out.println("expectedMessage = " + expectedMessage);
             System.out.println("actualMessage = " + actualMessage);
         }
-
         //close browser
         driver.quit();
     }
