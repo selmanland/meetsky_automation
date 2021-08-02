@@ -1,4 +1,4 @@
-package com.cybertek.tests.reviews;
+package com.cybertek.tests.myreviews;
 
 import com.cybertek.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
