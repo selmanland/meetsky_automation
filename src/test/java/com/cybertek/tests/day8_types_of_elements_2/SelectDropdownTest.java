@@ -61,6 +61,7 @@ public class SelectDropdownTest {
         //2.create Select object by passing that element as a constructor
         Select stateDropdown = new Select(dropdownElement);
 
+
         //verify that first selection is Select a state
         String expectedOption = "Select a State";
         String actualOption = stateDropdown.getFirstSelectedOption().getText();

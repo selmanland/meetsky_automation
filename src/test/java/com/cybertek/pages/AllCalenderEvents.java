@@ -59,8 +59,8 @@ public class AllCalenderEvents extends BasePage{
     @FindBy(xpath = "//button[@data-toggle='dropdown']/input")
     public WebElement selectAll;
 
-    @FindBy(xpath = "//tr[contains(@class,'grid-row')]")
-    public WebElement checkboxes;
+//    @FindBy(xpath = "//tr[contains(@class,'grid-row')]["+j+"]")
+//    public WebElement checkbox;
 
 
     public void getRecurrent(String recurrency){
@@ -68,13 +68,31 @@ public class AllCalenderEvents extends BasePage{
         Driver.get().findElement(By.xpath("//tr[@class='grid-row']/td[text()='"+((recurrency.substring(0,1).toUpperCase())+recurrency.substring(1).toLowerCase()+"']"))).click();
     }
 
-    public void getEvent(String eventTitle,String recurrency){
+    public void getEvent(String eventTitle,String recurrency) {
         searchBox.click();
         titleAll.click();
-        sendPropety.sendKeys(eventTitle+""+Keys.ENTER);
-        Driver.get().findElement(By.xpath("//tr[@class='grid-row']/td[text()='"+((recurrency.substring(0,1).toUpperCase())+recurrency.substring(1).toLowerCase()+"']"))).click();
-
+        sendPropety.sendKeys(eventTitle + "" + Keys.ENTER);
+        Driver.get().findElement(By.xpath("//tr[@class='grid-row']/td[text()='" + ((recurrency.substring(0, 1).toUpperCase()) + recurrency.substring(1).toLowerCase() + "']"))).click();
+    }
         //actions.moveToElement(searchBox).click().pause(2000).moveToElement(titleAll).click().pause(2000).moveToElement(sendPropety).sendKeys(value+""+Keys.ENTER).perform();
+
+
+//        public int getTotalNumberOfPage(){
+//
+//         String numberOftTotalPage = totalpage.getText();
+//         String[] numberOftTotalArray = numberOftTotalPage.split(" ");
+//
+//         String totalPageString = numberOftTotalArray[1];
+//         int totalPageNumber = Integer.valueOf(totalPageString);
+//
+//         return totalPageNumber;
+//        }
+
+     public WebElement checkbox(int j){
+
+        return Driver.get().findElement(By.xpath("(//input[contains(@data-role,'select-row-cell')])["+j+"]"));
+
+        }
 
 
     }
@@ -82,4 +100,4 @@ public class AllCalenderEvents extends BasePage{
 
 
 
-}
+

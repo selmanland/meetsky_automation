@@ -10,6 +10,7 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 
 public class LoginStepDefs {
+
     @Given("the user is on the login page")
     public void the_user_is_on_the_login_page() throws InterruptedException {
         String url = ConfigurationReader.get("url");
@@ -24,14 +25,14 @@ public class LoginStepDefs {
         String password = ConfigurationReader.get("driver_password");
 
         LoginPage loginPage = new LoginPage();
-        loginPage.login(username,password);
+        loginPage.login(username, password);
     }
 
     @Then("the user should be able to login")
     public void the_user_should_be_able_to_login() throws InterruptedException {
         BrowserUtils.waitFor(3);
         String actualTitle = Driver.get().getTitle();
-        Assert.assertEquals("Dashboard",actualTitle);
+        Assert.assertEquals("Dashboard", actualTitle);
 
     }
 
@@ -41,7 +42,7 @@ public class LoginStepDefs {
         String password = ConfigurationReader.get("sales_manager_password");
 
         LoginPage loginPage = new LoginPage();
-        loginPage.login(username,password);
+        loginPage.login(username, password);
 
     }
 
@@ -51,13 +52,13 @@ public class LoginStepDefs {
         String password = ConfigurationReader.get("store_manager_password");
 
         LoginPage loginPage = new LoginPage();
-        loginPage.login(username,password);
+        loginPage.login(username, password);
     }
 
     @When("the user logs in using {string} and {string}")
     public void the_user_logs_in_using_and(String username, String password) {
         LoginPage loginPage = new LoginPage();
-        loginPage.login(username,password);
+        loginPage.login(username, password);
     }
 
     @Then("the title contains {string}")
@@ -68,11 +69,13 @@ public class LoginStepDefs {
 
     }
 
+    @When("the user logs in as a {string} {string}")
+    public void the_user_logs_in_as_a(String username, String password) {
+        BrowserUtils.waitFor(2);
+        LoginPage loginPage = new LoginPage();
+        loginPage.login(username, password);
 
-
-
-
-
+    }
 
 
 }
