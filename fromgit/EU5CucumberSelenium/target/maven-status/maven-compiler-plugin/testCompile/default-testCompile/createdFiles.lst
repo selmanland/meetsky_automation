@@ -8,6 +8,7 @@ com\vytrack\utilities\ConfigurationReader.class
 com\vytrack\pages\CalendarEventsPage.class
 com\vytrack\pages\DashboardPage.class
 com\vytrack\utilities\BrowserUtils$1.class
+com\vytrack\runners\FailedTestRunner.class
 com\vytrack\utilities\Driver.class
 com\vytrack\runners\CukesRunner.class
 com\vytrack\utilities\BrowserUtils.class

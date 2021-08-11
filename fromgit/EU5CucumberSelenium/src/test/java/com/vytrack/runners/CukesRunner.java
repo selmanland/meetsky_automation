@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {"json:target/cucumber.json",     // report van maven
                 "html:target/default-html-reports", //html report
-                "rerun:target/rerun.txt"},     //create rerun report and keeps failed tset scenarios
+                "rerun:target/rerun.txt"},     //create rerun report and keeps failed test scenarios
         features = "src/test/resources/features",
         glue = "com/vytrack/step_definitions",
         dryRun = false,
