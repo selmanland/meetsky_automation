@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eaee5f43-fa1b-480c-822f-a5884387dc1b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/zerobank-automation/src/test/java/com/zerobank/pages/AccountActivityPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zerobank-automation/src/test/java/com/zerobank/pages/DashboardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zerobank-automation/src/test/java/com/zerobank/pages/FindTransactionsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zerobank-automation/src/test/java/com/zerobank/pages/PayBillsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zerobank-automation/src/test/java/com/zerobank/step_definitions/AccountActivityStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zerobank-automation/src/test/java/com/zerobank/step_definitions/AccountSummaryStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zerobank-automation/src/test/java/com/zerobank/step_definitions/FindTransactionsStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zerobank-automation/src/test/java/com/zerobank/step_definitions/PayBillsStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zerobank-automation/src/test/resources/features/AccountActivity.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zerobank-automation/src/test/resources/features/AccountSummary.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zerobank-automation/src/test/resources/features/FindTransactions.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zerobank-automation/src/test/resources/features/PayBills.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zerobank-automation/target/test-classes/com/zerobank/pages/AccountActivityPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zerobank-automation/target/test-classes/com/zerobank/pages/DashboardPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zerobank-automation/target/test-classes/com/zerobank/pages/FindTransactionsPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zerobank-automation/target/test-classes/com/zerobank/pages/PayBillsPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zerobank-automation/target/test-classes/com/zerobank/step_definitions/AccountActivityStepDef.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zerobank-automation/target/test-classes/com/zerobank/step_definitions/AccountSummaryStepDef.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zerobank-automation/target/test-classes/com/zerobank/step_definitions/FindTransactionsStepDef$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zerobank-automation/target/test-classes/com/zerobank/step_definitions/FindTransactionsStepDef.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zerobank-automation/target/test-classes/com/zerobank/step_definitions/PayBillsStepDef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/configuration.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/src/test/java/com/vytrack/pages/BasePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/src/test/java/com/vytrack/pages/CalendarEventsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/src/test/java/com/vytrack/pages/ContactInfoPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/src/test/java/com/vytrack/pages/ContactsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/src/test/java/com/vytrack/pages/CreateCalendarEventsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/src/test/java/com/vytrack/pages/DashboardPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/src/test/java/com/vytrack/pages/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/src/test/java/com/vytrack/runners/CukesRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/src/test/java/com/vytrack/runners/FailedTestRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/src/test/java/com/vytrack/step_definitions/ContactsStepDefs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/src/test/java/com/vytrack/step_definitions/Hooks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/src/test/java/com/vytrack/step_definitions/LoginStepDefs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/src/test/java/com/vytrack/step_definitions/NavigationMenuStepDefs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/src/test/java/com/vytrack/utilities/BrowserUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/src/test/java/com/vytrack/utilities/ConfigurationReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/src/test/java/com/vytrack/utilities/Driver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/src/test/resources/features/AccountTypes.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/src/test/resources/features/Contacts.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/src/test/resources/features/LoginWithParameters.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/src/test/resources/features/NavigationMenu.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/src/test/resources/features/login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/EU5CucumberSelenium-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/cucumber-html-reports/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/cucumber-html-reports/css/cucumber.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/cucumber-html-reports/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/cucumber-html-reports/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/cucumber-html-reports/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/cucumber-html-reports/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/cucumber-html-reports/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/cucumber-html-reports/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/cucumber-html-reports/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/cucumber-html-reports/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/cucumber-html-reports/js/Chart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/cucumber-html-reports/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/cucumber-html-reports/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/cucumber-html-reports/js/jquery.tablesorter.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/cucumber-html-reports/js/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/cucumber-html-reports/overview-failures.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/cucumber-html-reports/overview-features.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/cucumber-html-reports/overview-steps.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/cucumber-html-reports/overview-tags.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/cucumber-html-reports/report-feature_1321075111.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/cucumber-html-reports/report-tag_2149507997.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/cucumber.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/default-html-reports/embedded0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/default-html-reports/formatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/default-html-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/default-html-reports/jquery-3.4.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/default-html-reports/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/default-html-reports/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/failed-html-report/embedded0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/failed-html-report/formatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/failed-html-report/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/failed-html-report/jquery-3.4.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/failed-html-report/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/failed-html-report/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/surefire-reports/TEST-com.vytrack.runners.CukesRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/surefire-reports/TEST-com.vytrack.runners.FailedTestRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/surefire-reports/com.vytrack.runners.CukesRunner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/surefire-reports/com.vytrack.runners.FailedTestRunner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/test-classes/com/vytrack/pages/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/test-classes/com/vytrack/pages/CalendarEventsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/test-classes/com/vytrack/pages/ContactInfoPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/test-classes/com/vytrack/pages/ContactsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/test-classes/com/vytrack/pages/CreateCalendarEventsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/test-classes/com/vytrack/pages/DashboardPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/test-classes/com/vytrack/pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/test-classes/com/vytrack/runners/CukesRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/test-classes/com/vytrack/runners/FailedTestRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/test-classes/com/vytrack/step_definitions/ContactsStepDefs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/test-classes/com/vytrack/step_definitions/Hooks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/test-classes/com/vytrack/step_definitions/LoginStepDefs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/test-classes/com/vytrack/step_definitions/NavigationMenuStepDefs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/test-classes/com/vytrack/utilities/BrowserUtils$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/test-classes/com/vytrack/utilities/BrowserUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/test-classes/com/vytrack/utilities/ConfigurationReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/test-classes/com/vytrack/utilities/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/test-classes/features/AccountTypes.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/test-classes/features/Contacts.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/test-classes/features/LoginWithParameters.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/test-classes/features/NavigationMenu.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fromgit/EU5CucumberSelenium/target/test-classes/features/login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zerobank-automation/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zerobank-automation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zerobank-automation/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zerobank-automation/src/test/java/com/zerobank/pages/AccountSummaryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/zerobank-automation/src/test/java/com/zerobank/pages/AccountSummaryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zerobank-automation/src/test/java/com/zerobank/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/zerobank-automation/src/test/java/com/zerobank/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zerobank-automation/src/test/java/com/zerobank/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/zerobank-automation/src/test/java/com/zerobank/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zerobank-automation/src/test/java/com/zerobank/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/zerobank-automation/src/test/java/com/zerobank/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zerobank-automation/src/test/java/com/zerobank/step_definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/zerobank-automation/src/test/java/com/zerobank/step_definitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zerobank-automation/src/test/java/com/zerobank/step_definitions/LoginStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/zerobank-automation/src/test/java/com/zerobank/step_definitions/LoginStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zerobank-automation/src/test/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/zerobank-automation/src/test/resources/features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zerobank-automation/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/zerobank-automation/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zerobank-automation/target/test-classes/com/zerobank/pages/AccountSummaryPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/zerobank-automation/target/test-classes/com/zerobank/pages/AccountSummaryPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zerobank-automation/target/test-classes/com/zerobank/pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/zerobank-automation/target/test-classes/com/zerobank/pages/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zerobank-automation/target/test-classes/com/zerobank/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/zerobank-automation/target/test-classes/com/zerobank/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zerobank-automation/target/test-classes/com/zerobank/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/zerobank-automation/target/test-classes/com/zerobank/runners/CukesRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zerobank-automation/target/test-classes/com/zerobank/step_definitions/LoginStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/zerobank-automation/target/test-classes/com/zerobank/step_definitions/LoginStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zerobank-automation/target/test-classes/features/login.feature" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1wa0dDjgvAqmSKBH14bOPheDteF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eaee5f43-fa1b-480c-822f-a5884387dc1b" name="Default Changelist" comment="" />
+      <created>1628681477591</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628681477591</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

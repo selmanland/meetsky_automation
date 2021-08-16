@@ -1,0 +1,121 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-14T14:41:06.280Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9713000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.meetsky.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "The user should change profile settings",
+        "description": "",
+        "id": "as-a-user--i-should-be-able-to-change-profile-info-settings-under-the-profile-module;the-user-should-change-profile-settings",
+        "after": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.meetsky.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7227000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.meetsky.step_definitions.ProfileSettingsStepDef.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2979000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user enters Profile Settings",
+            "match": {
+              "location": "com.meetsky.step_definitions.ProfileSettingsStepDef.theUserEntersProfileSettings()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5081000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user change profile settings",
+            "match": {
+              "location": "com.meetsky.step_definitions.ProfileSettingsStepDef.theUserChangeProfileSettings()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 720000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user verify that the modification as follows",
+            "match": {
+              "location": "com.meetsky.step_definitions.ProfileSettingsStepDef.theUserVerifyThatTheModificationAsFollows(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Selman Durmaz"
+                ]
+              },
+              {
+                "cells": [
+                  "selman@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Nederlands"
+                ]
+              },
+              {
+                "cells": [
+                  "Dutch"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "As a user, I should be able to change profile info settings under the Profile module",
+    "description": "  AC:\n  Display personal info under Profile Settings page\n  User can change any info under Profile Settings page",
+    "id": "as-a-user--i-should-be-able-to-change-profile-info-settings-under-the-profile-module",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ProfileSettings.feature",
+    "tags": []
+  }
+]

@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0b445df-80e7-47ef-8560-a2798ae9a650" name="Default Changelist" comment="parallel test in pom.xml">
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Contacts.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Contacts.feature" afterDir="false" />
-    </list>
+    <list default="true" id="b0b445df-80e7-47ef-8560-a2798ae9a650" name="Default Changelist" comment="15 Augustus" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,12 +18,18 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="jamaldemir &lt;jamal@cybertekschool.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="final" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1wb5zCSPAHoEcBcpwTpTqAeqLHx" />
   <component name="ProjectViewState">
@@ -116,7 +117,28 @@
       <option name="project" value="LOCAL" />
       <updated>1628721225698</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="parallel test in pom.xml">
+      <created>1629120051542</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1629120051542</updated>
+    </task>
+    <task id="LOCAL-00006" summary="15 Augustus">
+      <created>1629120117249</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1629120117249</updated>
+    </task>
+    <task id="LOCAL-00007" summary="15 Augustus">
+      <created>1629120151089</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1629120151089</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +168,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="final" />
     <MESSAGE value="parallel test in pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="parallel test in pom.xml" />
+    <MESSAGE value="15 Augustus" />
+    <option name="LAST_COMMIT_MESSAGE" value="15 Augustus" />
   </component>
 </project>
